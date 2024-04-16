@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'c8d9a598-7e26-4f3c-9bd9-db53353328d3'
   imageRepository: 'pythondocker'
   containerRegistry: '0f58b7b89ef043e5b9b88eae20ff6137.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
